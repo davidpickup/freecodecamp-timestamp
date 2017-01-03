@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var strftime = require('strftime');
 
-app.get('/', function (req, res) {
+app.get('', function (req, res) {
   res.send("Timestamp microservice.");
 })
 
